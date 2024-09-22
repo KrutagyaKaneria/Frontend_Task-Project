@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1,.box2,.box3,.box4{
+    border: 2px solid rgb(210,210,210);
+    text-align: center;
+}
+.text{
+    font-size:xx-large;
+}
+.box1{
+    margin-left: 20vh;
+}
+.box2{
+    margin-left: -17vh;
+}
+.box3{
+    margin-right: -17vh;
+}
+.box4{
+    margin-right:20vh ;
+}

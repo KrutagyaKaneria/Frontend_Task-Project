@@ -1,0 +1,41 @@
+.biggest1{
+    display: flex;
+    margin-top: 0vh;
+    margin-right:2vw ;
+    
+}
+.biggest2{
+    display: flex;
+    margin-top: 0vh;
+    margin-left: 2vw;
+    
+}
+.innerbox{
+    display: grid;
+    grid-template-columns: repeat(9,28px);
+    grid-template-rows:repeat(9,28px);
+}
+.smallbox{
+    border: 1px solid black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.text1{
+    margin-left: 10vw;
+    margin-top: 40vh;
+}    
+.text2{
+    margin-right: 10vw;
+    margin-top: 40vh;
+}   
