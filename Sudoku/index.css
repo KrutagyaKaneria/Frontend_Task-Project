@@ -38,4 +38,11 @@
 .text2{
     margin-right: 10vw;
     margin-top: 40vh;
-}   
+}
+.smallbox1{
+    border: 1px solid black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: rgb(169,217,181);
+}

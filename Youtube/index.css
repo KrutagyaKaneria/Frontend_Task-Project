@@ -1,16 +1,67 @@
-body {
-    background-color: black;
-    /* height: 100vh;
-    width: 100vw; */
+body{
+    background-color: rgb(24,25,25);
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.lefttop_logo{
+    display: flex;
+    gap: 1vw;
+}
+.text{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.leftmenu{
+    display: grid;
+    grid-template-columns: repeat(2,10px);
+    grid-template-rows: repeat(4,50px);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 19.2px;
+    margin-left: 1.5vw;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+}
+.mainleft{
+    background-color: rgb(33,33,33);
+    height: auto;
+    width: 17vw;
+}
+hr{
+    width: 30vh;
+    opacity: 70%;
+    color: rgb(162,162,162);
+}
+.subscriptions{
+    margin-left: 2vw;
+    opacity: 80%;
+    color: rgb(162,162,162);
+}
+.lefttop_logo{
+    padding-top:1.5vh;
+    padding-left: 1.4vw;
+}
+.allkeys{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(12,70px);
+    grid-template-rows: repeat(1,70px);
+    justify-content: space-between;
+    
 }
 .navbar{
+    padding-left: 22vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 1vw;
-}
-.lefttop{
-    display: flex;
-    gap: 2vw;
+    gap: 7.5vw;
 }
 .righttop{
     display: flex;
@@ -35,31 +86,75 @@ body {
 .middle :nth-child(3){
     margin-left: 1vw;
 }
-.explore{
-    justify-content: space-evenly;
+.final{
     display: flex;
-    gap: 2vw;
-    margin-top: 5vh;
-    margin-bottom: 2vh;
-    margin-left: 30vh;
 }
-.explore1{
-    background-color:grey;
+.text{
+    display: flex;
+}
+.bigdiv {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(3, 200px);
+    grid-gap: 4vw;
+    margin-left: 3vw;
+    margin-top: 4vh;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 100px;
+}
+.sector {
+    display: flex;
+    flex-direction: column;
+}
+.second {
+    display: flex;
+    width: 18vw;
+    margin-top: 1.4vh;
+}
+.line2 {
     color: white;
-    border-radius: 4vh;
+    padding-left: 12px;
+    font-size: 14px;
+    width:200px;
+}
+
+.line3 {
+    color: white;
+    padding-left: 44px;
+    font-size: 14px;
+    width:140px;
+    margin-top: .4vh;
+    opacity: 40%;
+}
+.all{
+    display: grid;
+    grid-template-columns: repeat(12,100px);
+    grid-template-rows: repeat(1,50px);
+    gap: 8px;
+    padding-top: 2vh;
+    border-bottom: 20px;
+}
+.bar{
+    color: white;
+    border:1px solid black;
+    border-radius: 100px;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: .5vw;
+    background-color: rgb(56,56,56);
+    padding: 2vh 40vh 2vh 40vh;
+    
 }
-.bar{
-    display: grid;
-    grid-template-columns: repeat(2,3vw);
-    grid-template-rows: repeat(4,15vh);
-}
-.bar1{
-    color: white;
-    display: grid;
+.bar0{
     display: flex;
-    align-items: self-start;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+    background-color: black;
 }

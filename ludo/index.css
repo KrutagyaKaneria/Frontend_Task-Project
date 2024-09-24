@@ -1,0 +1,125 @@
+.box{
+    border: 5px solid red;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+   
+}
+.box1{
+    border: 5px solid green;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+.box2{
+    border: 5px solid blue;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+.box3{
+    border: 5px solid yellow;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+.redhouse1{
+    border: 50px solid red;
+    display: grid;
+    grid-template-columns: repeat(2,80px);
+    grid-template-rows: repeat(2,80px);
+    width: 160px;
+    height: 160px;
+    align-items: center;
+    justify-items: center;
+}
+.redhouse2{
+    border: 50px solid green;
+    display: grid;
+    grid-template-columns: repeat(2,80px);
+    grid-template-rows: repeat(2,80px);
+    width: 160px;
+    height: 160px;
+    align-items: center;
+    justify-items: center;
+}
+.redhouse3{
+    border: 50px solid blue;
+    display: grid;
+    grid-template-columns: repeat(2,80px);
+    grid-template-rows: repeat(2,80px);
+    width: 160px;
+    align-items: center;
+    justify-items: center;
+}
+.redhouse4{
+    border: 50px solid yellow;
+    display: grid;
+    grid-template-columns: repeat(2,80px);
+    grid-template-rows: repeat(2,80px);
+    width: 160px;
+    align-items: center;
+    justify-items: center;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(3,50px);
+    grid-template-rows: repeat(6,43.3px);
+}
+.smallbox{
+    border: 1px solid black;
+}
+.upper{
+    display: flex;
+}
+.smallboxg{
+    border: 1px solid black;
+    background-color: green;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(6,44px);
+    grid-template-rows: repeat(3,50px);
+}
+.lower{
+    display: flex;
+}
+.last{
+    display: flex;
+}
+.middle {
+    display: grid;
+    grid-template-columns: 260px 150px 260px ;
+    grid-template-rows: 150px;
+}
+.smallboxr{
+    border: 1px solid black;
+    background-color:red;
+}
+.smallboxy{
+    border: 1px solid black;
+    background-color:yellow;
+    }
+.smallboxb{
+ border: 1px solid black;
+background-color:blue;
+}
+.star
+{
+	font-size: 35px;
+	text-align: center;
+    margin-top: 15vh;
+    margin-left: .5vw;
+}
+.headbox {
+    height: 2%;
+    width: 2%;
+    border-top: 5.3vw solid green;
+    border-right: 4.8vw solid yellow;
+    border-left: 5.3vw solid red;
+    border-bottom: 4.8vw solid blue;
+    
+}
+.ludo{
+    margin-left: 20vw;
+}

@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(33,33,33);
+    height: 100vh;
+    width: 100vw;
+    
+}
+*{
+    margin: 0px;
+    padding: 0PX;
+}
+.toplogo{
+    display: grid;
+    padding-top:2vh ;
+    margin-left: 2vw;
+}
+.text{
+    color: white;
+    margin-right: 13vw;
+}
+.leftmenu1{
+    display: grid;
+    grid-template-columns: repeat(2,4px);
+    grid-template-rows: repeat(4,50px);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 11px;
+    margin-left: 1.5vw;
+    padding-top: 4vh;
+}
+.leftmenu2{
+    display: grid;
+    grid-template-columns: repeat(2,50px);
+    grid-template-rows: repeat(4,50px);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 11px;
+    margin-left: 1.5vw;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+}
+.mainleft{
+    background-color: rgb(33,33,33);
+    height: 100vh;
+    width: 10vw;
+}
+.leftdownmenu{
+    color: white;
+}
+.leftbar{
+    background-color: rgb(0,0,0);
+    width: 20VW;
+    height: auto;
+    gap: 30vh;
+}
+.text2,.text3,.text4,.text5,.text6{
+    margin-top: 2vh;
+}
+.finalleft{
+    display: flex;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.img1{
+    margin-top: 3vh;
+    margin-left: 3vh;
+}
+.img2{
+    margin-top: 4vh;
+    
+}
+.finaltop{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+}
+.top{
+    display: flex;
+    gap: 50vw;
+}
+.first{
+    display: flex;
+}
+.box1{
+    margin-top: 4vh;
+    gap: 100px;
+    
+    /* width: 100vw; */
+}
+.boxtext{
+    margin-left: 0vw;
+    color: white;
+    background-color:rgb(48,48,48) ;
+    margin-left: 20px;
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20vw;
+}
+.div1{
+    border: 1px solid black;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    background-color:rgb(48,49,49);
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.div{
+    margin-left: 30px;
+    color: white;
+}
+.topbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.inbox{
+    display: flex;
+    gap: 20px;
+}
+.down{
+    margin-top: 50px;
+}
+.h{
+    margin-left: 30px;
+    color: white;
+    margin-top: 30px;
+}
+.end{
+    display: flex;
+}
+.lower{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
