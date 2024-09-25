@@ -30,8 +30,8 @@ body{
 }
 .leftmenu2{
     display: grid;
-    grid-template-columns: repeat(2,50px);
-    grid-template-rows: repeat(4,50px);
+    grid-template-columns: repeat(4,50px);
+    grid-template-rows: repeat(2,50px);
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -122,10 +122,12 @@ body{
 }
 .inbox{
     display: flex;
-    gap: 20px;
+    gap: 8px;
 }
 .down{
-    margin-top: 50px;
+    margin-top: 40px;
+    padding-left: 10px;
+
 }
 .h{
     margin-left: 30px;
@@ -135,8 +137,36 @@ body{
 .end{
     display: flex;
 }
-.lower{
+.bottombar{
+    background-color:rgb(24, 24, 24);
+    width: 1460px;
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    padding-top: -20vh;
+    
+}
+.leftone{
+    height: 100px;
+    width: 300px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.middleone{
+    padding-top: 20px;
+}
+.rightone{
+    padding-top: 35px;
+    
+}
+.bottombar{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+}
+.greenbar{
+    position:absolute;
+    z-index: 2;
+    margin-top: 93px;
 }
