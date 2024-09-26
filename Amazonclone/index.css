@@ -1,0 +1,81 @@
+.top{
+    background-color:rgb(19,24,33) ;
+    display: flex;
+    justify-content: space-between;
+}
+.top :nth-child(2){
+    height: 25px;
+}
+.top :nth-child(5){
+    color: white;
+    width: 50vw;
+    height: 4vh;
+    margin-top: 2.3vh;
+}
+.topright{
+    color: white;
+    text-align: center;
+    margin-left: 2vw;
+}
+.topright :nth-child(1){
+    display: flex;
+}
+.all{
+    margin-top: 2.5vh;
+    color: white;
+}
+.top :nth-child(10){
+    width: 1vw;
+    height: 1vh;
+    margin-top: 3.5vh;
+    margin-right: 2vh;
+}
+.top :nth-child(8){
+    width: 1vw;
+    height: 2vh;
+}
+.topleft{
+    color: white;
+}
+.topleft1{
+    color: white;
+}
+.topleft2{
+    color: white;
+}
+.top :nth-child(6){
+    height: 3vh;
+    background-color:rgb(250,191,103) ;
+    margin-top: 2.3vh;
+    padding: .8vh;
+    margin-right: 8vh;
+}
+.top :nth-child(7){
+    height: 3vh;
+    margin-top:3vh;
+    margin-right: .8vh;
+}
+.top :nth-child(8){
+    height: 1vh;
+    margin-top:5vh;
+    margin-right: 6vw;
+    margin-left: 2px;
+}
+
+/* --------subtop------ */
+.menubar{
+    display: flex;
+    background-color:rgb(37,49,64) ;
+    gap: 2vw;
+    text-align: center;
+}
+.subtext{
+    margin-top: 2vh;
+    color: white;
+}
+.menubar :nth-child(1){
+    margin-left: 1vh;
+}
+.menubar :nth-child(2){
+    margin-right: 3vh;
+}

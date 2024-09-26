@@ -16,6 +16,7 @@ body{
 .text{
     color: white;
     margin-right: 13vw;
+    width: 40vw;
 }
 .leftmenu1{
     display: grid;
@@ -49,6 +50,7 @@ body{
 }
 .leftdownmenu{
     color: white;
+    margin-left: 2vw;
 }
 .leftbar{
     background-color: rgb(0,0,0);
