@@ -5,6 +5,11 @@
 }
 .top :nth-child(2){
     height: 25px;
+    margin-top: 30px;
+}
+.top :nth-child(1){
+    height: 50px;
+    margin-top: 10px;
 }
 .top :nth-child(5){
     color: white;
