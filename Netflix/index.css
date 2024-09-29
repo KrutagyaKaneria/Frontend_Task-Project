@@ -1,0 +1,160 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(21, 21, 21);
+}
+.img{
+    width: 1370px;
+    /* width: auto */
+}
+.navbar{
+    display: flex;
+    margin-top: -750px;
+    /* justify-content: space-between; */
+    color: black;
+}
+
+.left{
+    margin-left: 14px;
+}
+
+.netflixlogo{
+    height: 24px;
+    margin-left: 25px;
+}
+.search{
+    margin-left: 380px;
+
+}
+.gift{
+    margin-left: 10px;
+}
+.bell{
+    margin-left: 10px;
+}
+.downarrow{
+    margin-left: 5px;
+}
+.two{
+    display: flex;
+    color: white;
+    margin-top: 340px;
+    margin-left: 52px;
+}
+.maid{
+    font-size: 100px;
+    color: white;
+    margin-left: 23px;
+    margin-top: -25px;
+
+}
+.play{
+    display: flex;
+    background-color:white;
+    /* border: 1px solid black; */
+    height: 25 px;
+    width:55px ;
+    border-radius: 3px;
+    padding-top: 2.5px;
+    margin-left: 55px;
+    padding-left: 2.5px;
+}
+.more{
+    display: flex;
+}
+.more{
+    display: flex;
+    background-color:gray;
+    height: 25px;
+    width:90px ;
+    border-radius: 3px;
+    margin-left: 15px;
+    
+}
+.buttons{
+    display: flex;
+    font-size: small;
+    margin-top: -5px;
+}
+
+.add{
+    height: 20px;
+    margin-left: 1340px;
+    margin-top: 45px;
+}
+.see_again{
+    color: white;
+    font-size: large;
+}
+.text1{
+    display: flex;
+    margin-left: 55px;
+    margin-top: 35px;
+}
+.movies{
+    display: flex;
+    justify-content: space-around;
+    height: 25px;
+    margin-left: 49px;
+    margin-top: 5px;
+    margin-right: -6px;
+}
+.size{
+    height: 140px;
+}
+.text2{
+    display: flex;
+    margin-left: 55px;
+    margin-top: 170px;
+}
+.top10{
+    color: white;
+    font-size: large;
+
+}
+.movies2{
+    display: flex;
+    /* margin-left: 49px; */
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.number{
+    height: 150px;
+}
+.mov{
+    height: 150px;
+}
+.logo{
+    display: flex;
+    /* justify-content:center; */
+    margin-top: 170px;
+    margin-left: 280px;  
+
+}
+.lm{
+    margin-left: 20px;
+    height: 20px;
+}
+.color{
+    color: gray;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    grid-template-rows: repeat(3,40px);
+    margin-left: 300px;
+    margin-top: 15px;
+}
+.box{
+    margin-top: 15px;
+    color: gray;
+    border: 1px solid gray;
+    width:105px;
+    margin-left: 300px;
+    padding-left: 3px;
+}
+.last{
+    margin-top: 15px;
+    color: gray;
+    margin-left: 300px;
+    /* padding-left: 3px; */
+}
