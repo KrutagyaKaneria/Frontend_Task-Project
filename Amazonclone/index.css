@@ -1,3 +1,7 @@
+body{
+    background-image: url("background picture.png");
+}
+
 .top{
     background-color:rgb(19,24,33) ;
     display: flex;
@@ -83,4 +87,173 @@
 }
 .menubar :nth-child(2){
     margin-right: 3vh;
+}
+main {
+    width: 98%;
+    height: 93.8vh;
+    background-image: url(background\ picture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px ;
+}
+
+.mainflex {
+    display: flex;
+    justify-content: space-between ;
+}
+
+.sidearrow {
+    margin-top: 16vh;
+}
+
+#sidearrowimage1 {
+    width: 3.8vh;
+    margin-left: 2vw;
+}
+
+#sidearrowimage2 {
+    width: 3.8vh;
+    margin-right: 2vw;
+}
+
+.boxs {
+    margin-top: 15.5vh;
+    width: 69%;
+    height: 46.8vh;
+}
+
+.maingrid {
+    width: 74%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: 1fr;
+}
+
+.subgrid { 
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+}
+
+.subimg {
+    width: 10vw;
+    margin-left: 0.5vh;
+}
+
+.imgtext {
+    font-size: x-small;
+    margin-left: 0.2vw;
+    opacity: 0.6;
+    margin-bottom: 2.5vh;
+    margin-top: -1vh;
+}
+
+.box {
+    background-color: white;
+}
+
+.maingrid {
+    column-gap: 2.8vh;
+}
+
+.maintext {
+    margin-top: 1.9vh;
+    margin-left: 0.9vw;
+    margin-bottom: 1vh;
+    font-weight: 1000;
+}
+
+.maingrid {
+    margin-left: 9px;
+    width: 71vw;
+}
+
+.subimg1 {
+    margin-left: 0.9vh;
+}
+
+#laptopsaleimg {
+    height: 40vh;
+    width: 21vw;
+}
+
+.laptopsaleflex {
+    display: flex;
+    justify-content: center ;
+}
+
+.flexthemain {
+    display: flex;
+    width: 80%;
+}
+
+.signinsecurly {
+    width: 22vw;
+    height: 19vh;
+    margin-left: 19.8vw;
+    background-color: white;
+    margin-top: 15.5vh;
+}
+
+.parent {
+    width: 76%;
+    height: 100%;
+}
+
+.bigsignintextb {
+    font-size: medium;
+}
+
+.bigsignintext {
+    margin-left: 1.5vw;
+}
+
+.signinbuttonmain {
+    width: 83%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.4vh;
+    background-color: #fed813;
+    font-size: small;
+    border-radius: 6px;
+}
+
+.signinbuttonflex {
+    display: flex;
+    justify-content: center;
+}
+
+.topbrandslaptop {
+    width: 18vw;
+    height: 27vh;
+    margin-left: 21.8vw;
+    background-color: white;
+    margin-top: 3.5vh;
+} 
+
+#topbrandslaptop {
+    width: 100%;
+}
+
+.shopnow {
+    font-size: small;
+    color: #31535f ;
+    margin-left: 0.9vw;
+}
+
+#laptopshopnow {
+    margin-top: 2.2vh;
+}
+
+
+.prime {
+    display: flex;
+}
+
+#primedate {
+    height: 7vh;
+    width: 4vw;
 }
